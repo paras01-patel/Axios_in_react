@@ -1,9 +1,13 @@
-import Api from "./component/api"
+
+import Counter from "./component/Counter"
 
 
 function App(){
   return (
-    <> <Api/></>
+    <> 
+    
+    <Counter/>
+    </>
   )
 }
 export default App
