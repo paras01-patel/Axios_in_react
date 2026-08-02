@@ -6,11 +6,11 @@ function Counter(){
         <>
         <h1> Counter App</h1>
         <h2>{count}</h2>
-        <button onClick={()=>setCount(count+1)}>
+        <button onClick={()=>setCount(count+2)}>
             Incease
         </button>
 
-        <button onClick={()=>setCount(count-1)}>
+        <button onClick={()=>setCount(count-2)}>
             Dearese
         </button>
 
